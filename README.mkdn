@@ -1,21 +1,16 @@
-Benzo Rom
+BUILD AOSP Rom
 ===========
 
-Some info might be outdated, but you can get the gist if it is.
+try installing all the packages using
 
-Getting Started
----------------
+sudo pacman -Syu lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync lib32-zlib lib32-ncurses lib32-readline
 
-To get started with Benzo, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+and there are two AUR packages
 
-To initialize your local repository use a command like this:
+ncurses5-compat-libs
+lib32-ncurses5-compat-libs
+which you can install using pamac
 
-    repo init -u git://github.com/BenzoRom/manifest.git -b eightone
-
-Then to sync up:
-
-    repo sync -f -j8
 
 
 Instructions for building with Arch Linux
