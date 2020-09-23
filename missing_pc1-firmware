@@ -11,3 +11,5 @@ cd wd719x-firmware
 makepkg -sri
 
 yay -S mkinitcpio
+
+yay -S upd72020x-fw
