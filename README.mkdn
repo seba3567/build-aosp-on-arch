@@ -1,5 +1,6 @@
 
 export JAVA_HOME=/usr/lib/jvm/java-version-openjdk
+export _JAVA_OPTIONS="-Xmx7g"
 
 BUILD AOSP Rom
 ===========
