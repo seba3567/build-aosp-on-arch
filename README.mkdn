@@ -5,6 +5,10 @@ export _JAVA_OPTIONS="-Xmx7g"
 BUILD AOSP Rom
 ===========
 
+for dump toola (unesed with build aosp)
+
+p7zip
+
 try installing all the packages using
 
 sudo pacman -Syu lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync lib32-zlib lib32-ncurses lib32-readline
