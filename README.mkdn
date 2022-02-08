@@ -9,28 +9,15 @@ for dump toola (unesed with build aosp)
 
 p7zip
 
-try installing all the packages using
-
-sudo pacman -Syu lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync lib32-zlib lib32-ncurses lib32-readline
-
-and there are two AUR packages
-
-ncurses5-compat-libs
-lib32-ncurses5-compat-libs
-which you can install using pamac
-
-
-
 Instructions for building with Arch Linux
 =========================================
 
-Install the needed packages
+Install the ARCH needed packages
 ---------------------------
-yaourt -S gcc-multilib repo git gnupg flex bison gperf sdl squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync ccache java-environment ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs ffmpeg ninja lzop pngcrush imagemagick
 
-To set up adb
--------------
-yaourt -S android-tools android-udev
+yay -Syu lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync lib32-zlib lib32-ncurses lib32-readline ncurses5-compat-libs lib32-ncurses5-compat-libs gcc-multilib repo git gnupg flex bison gperf sdl squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python2-virtualenv bc rsync ccache java-environment ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs ffmpeg ninja lzop pngcrush imagemagick  android-tools android-udev
+
+
 
 
 FOR UBUNTU
