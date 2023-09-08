@@ -11,8 +11,13 @@ p7zip
 
 Instructions for building with Arch Linux
 =========================================
+Install the ARCH needed packages [a13+]
+---------------------------
 
-Install the ARCH needed packages
+yay -Syu aosp-devel lineageos-devel ttf-dejavu
+
+
+Install the ARCH needed packages [DEPRECATED]
 ---------------------------
 
 yay -Syu lib32-gcc-libs git gnupg flex bison gperf sdl wxgtk3 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt python bc rsync lib32-zlib lib32-ncurses lib32-readline ncurses5-compat-libs lib32-ncurses5-compat-libs gcc-multilib repo git gnupg flex bison gperf sdl squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt  bc rsync ccache ncurses5-compat-libs lib32-zlib lib32-ncurses lib32-readline lib32-ncurses5-compat-libs ffmpeg ninja lzop pngcrush imagemagick  android-tools android-udev libxcrypt-compat
