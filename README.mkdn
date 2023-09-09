@@ -14,7 +14,7 @@ Instructions for building with Arch Linux
 Install the ARCH needed packages [a13+]
 ---------------------------
 
-yay -Syu aosp-devel lineageos-devel ttf-dejavu
+yay -S base-devel aosp-devel lineageos-devel ttf-dejavu
 
 (opcional )  yay -S base-devel
 
